@@ -16,7 +16,7 @@ resource "aws_dynamodb_table" "default" {
   }
   tags = {
     Name        = "short-url"
-    Environment = "Dev"
+    Environment = "devlopment"
   }
 
 }
